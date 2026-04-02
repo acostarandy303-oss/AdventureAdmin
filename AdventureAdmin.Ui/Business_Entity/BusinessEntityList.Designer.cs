@@ -1,6 +1,6 @@
 ﻿namespace AdventureAdmin.Ui.Business_Entity
 {
-    partial class Business_Entity_list
+    partial class BusinessEntityList
     {
         /// <summary>
         /// Required designer variable.
@@ -33,21 +33,22 @@
             // 
             // button1
             // 
-            button1.Location = new Point(22, 12);
+            button1.Location = new Point(12, 12);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 0;
-            button1.Text = "Inicio";
+            button1.Text = "Nuevo";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // Business_Entity_list
+            // BusinessEntityList
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(802, 450);
+            ClientSize = new Size(800, 450);
             Controls.Add(button1);
-            Name = "Business_Entity_list";
-            Text = "Business_Entity_list";
+            Name = "BusinessEntityList";
+            Text = "BusinessEntityList";
             ResumeLayout(false);
         }
 
